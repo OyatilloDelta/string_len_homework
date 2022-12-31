@@ -7,4 +7,10 @@ def main(s1,s2):
     Returns:
         shortest string
     """
-    return
+    x=len(s1)
+    y=len(s2)
+    if x-y<0:
+        h=x
+
+    return h
+print(main("hghg","hjjkjk"))
