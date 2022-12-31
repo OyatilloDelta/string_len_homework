@@ -6,4 +6,6 @@ def main(a):
     Returns:
         length of string
     """
-    return
+    h=len(a)
+    return h
+print(main("fgfg"))
