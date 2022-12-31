@@ -1,10 +1,9 @@
 def main(a,b):
     """
-    String type variables a and b are given. Return True if the length is equal. If not equal, return False.
-    Args:
-        a: string
-        b: string
-    Returns:
-        True or False
+    c
     """
-    return
+    x=len(a)
+    y=len(b)
+    s=x==y
+    return s
+print(main("fd","fgd"))
