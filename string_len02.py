@@ -6,4 +6,7 @@ def main(a):
     Returns:
         True or False
     """
-    return
+    x=len(a)
+    d=x%2==0
+    return d
+print(main("fgfgfh"))
